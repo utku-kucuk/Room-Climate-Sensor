@@ -37,7 +37,7 @@ Maintaining optimal indoor climate is key for comfort. This project uses a DHT22
 * ESPHome: Install ESPHome (2025.2.2 or later) via Home Assistant add-on or standalone (see ESPHome Docs: https://esphome.io/).
 * Home Assistant: Set up for integration (ESPHome add-on or dashboard required).
 * Secrets File: Create secrets.yaml with WiFi and Home Assistant credentials.
-* Arial Font: Place arial.ttf in your ESPHome config directory for OLED display.
+* Font: The OLED display uses Roboto (Apache 2.0), which ESPHome downloads from Google Fonts automatically. No font file is needed.
 
 ## Installation
 1. Set Up Secrets: Create secrets.yaml in your ESPHome config directory with:

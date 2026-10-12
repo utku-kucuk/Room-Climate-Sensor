@@ -47,10 +47,10 @@ display:
 
 # Fonts for display
 font:
-  - file: 'arial.ttf'  # Arial font file in ESPHome config directory
+  - file: "gfonts://Roboto"  # Open-source Google Font, downloaded by ESPHome at build time
     id: font_small
     size: 10
-  - file: 'arial.ttf'
+  - file: "gfonts://Roboto"
     id: font_large
     size: 20  # Restored to original size
 
